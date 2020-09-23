@@ -1,10 +1,8 @@
 {
-    "name": "codicastudio/scchedulemonitor",
-    "description": "A noobs worthless garbage, just learning.",
-    "keywords": [
-        "worthless garabage by a noob."
-    ],
-    "homepage": "https://github.com/codicastudio/scchedulemonitor",
+    "name": "codica-studio/scchedulemonitor",
+    "description": "A random Codica Studio package.",
+
+    "homepage": "https://github.com/codica-studio/scchedulemonitor",
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +13,7 @@
         }
     ],
     "require": {
-        "php": "^7.4",
+        "php": "^7.4 || ^8.0",
         "illuminate/bus": "^8.0",
         "lorisleiva/cron-translator": "^0.1.1"
     },
@@ -44,7 +42,7 @@
         "psalm": "vendor/bin/psalm",
         "test": "vendor/bin/phpunit",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
-        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=no"
     },
     "config": {
         "sort-packages": true
