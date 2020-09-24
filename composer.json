@@ -1,8 +1,8 @@
 {
-    "name": "codica-studio/scchedulemonitor",
+    "name": "codicastudio/schedule-monitor",
     "description": "A random Codica Studio package.",
 
-    "homepage": "https://github.com/codicastudio/scchedulemonitor",
+    "homepage": "https://github.com/codicastudio/schedule-monitor",
     "license": "MIT",
     "authors": [
         {
@@ -39,7 +39,6 @@
         }
     },
     "scripts": {
-        "psalm": "vendor/bin/psalm",
         "test": "vendor/bin/phpunit",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
         "format": "vendor/bin/php-cs-fixer fix --allow-risky=no"
@@ -54,6 +53,6 @@
             ]
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
